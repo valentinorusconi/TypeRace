@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <html lang="en">
+    <title>Typeracer</title>
+    <link rel="stylesheet" type="text/css" href="../css/typer.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Typeracer</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <div class="container text-center">
+                <h1>Typeracer</h1>
+                <p>let's rule</p>
+                <br>
+                <h2 id="keyToPress">Q</h2>
+                <h2 id="timer">time: 00:30 min</h2>
+                <h2 id="points">points: 0</h2>
+                <button type="button" class="btn btn-default" id="startButton">start!</button>
+                    <div id="history">
+                        <table class="table">
+                            <tr>
+                                <th id="tableHeaderID"> ID</th>
+                                <th id="tableHeaderPoints">Points</th>
+                            </tr>
+                        </table>
+                    </div>
+            </div>
+        </div>
+        <script src="../js/typer.js"></script>
+    </body>
+</head>
+</html>
